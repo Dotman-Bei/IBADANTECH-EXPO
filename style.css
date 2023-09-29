@@ -127,4 +127,32 @@ main{
 
 .div5{
     margin-top: 40px;
+    display: flex;
+}
+
+.div5 h3{
+    font-weight: 400;
+}
+
+.divleft #line{
+    width: 100%;
+    margin-top: -50px;
+}
+
+.div6{
+    margin-top: 70px;
+}
+
+.div6 h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.venueimg{
+    background-image: url(IMAGES/Venue-1-38edfbf0.png);
+    background-size: cover;
+    border-radius: 20px;
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
 }
