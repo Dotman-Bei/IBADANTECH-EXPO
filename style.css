@@ -5,19 +5,19 @@
 }
 
 body{
-    color: rgba(34, 64, 147, 1);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(34, 64, 147, 1)
 }
 
 nav{
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgb(245,245,245);
     height: 90px;
     position: sticky;
     top: 0;
     box-shadow: 2px solid rgb(237, 237, 237);
+    color: rgba(34, 64, 147, 1);
 }
 
 .leftdiv img{
@@ -32,6 +32,7 @@ nav button{
     width: 120px;
     border-radius: 10px;
 }
+
 
 nav button h4{
     color: rgba(34, 64, 147, 1);
@@ -53,6 +54,7 @@ nav button h4:hover{
     text-decoration: none;
     padding-right: 30px;
     font-weight: bold;
+    color: rgba(34, 64, 147, 1);
 }
 
 main{
@@ -68,6 +70,7 @@ main{
 .div2 h1{
     font-weight: 200px;
     font-size: 25px;
+    color: rgba(34, 64, 147, 1);
 }
 
 #star{
@@ -81,6 +84,7 @@ main{
    align-items: center;
    margin-top: 30px;
    padding: 0 40px;
+   color: rgba(34, 64, 147, 1);
 }
 
 .div3 .box1{
@@ -90,6 +94,7 @@ main{
     border: none;
     font-weight: bold;
     font-size: 20px;
+    color: rgba(34, 64, 147, 1);
 }
 
 .div3 .box2{
@@ -99,6 +104,7 @@ main{
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+    color: rgba(34, 64, 147, 1);
 }
 
 .div4{
@@ -126,33 +132,51 @@ main{
 }
 
 .div5{
-    margin-top: 40px;
+    margin: 40px 40px;
     display: flex;
 }
 
 .div5 h3{
     font-weight: 400;
+    margin-top: -80px;
+    font-weight: 500;
+    color: rgba(34, 64, 147, 1);
 }
 
-.divleft #line{
-    width: 100%;
-    margin-top: -50px;
+.josh{
+    border-top: 2px solid #FEB20F;
+    padding-top: 20px;
 }
+
 
 .div6{
     margin-top: 70px;
 }
 
 .div6 h1{
-    font-size: 70px;
+    font-size: 80px;
     font-weight: bolder;
+    padding-bottom: -5px;
+    border-bottom: 2px solid rgb(253,185,21);
+    margin-bottom: 60px;
+    color: rgba(34, 64, 147, 1);
 }
 
-.venueimg{
-    background-image: url(IMAGES/Venue-1-38edfbf0.png);
-    background-size: cover;
-    border-radius: 20px;
-    height: 500px;
-    width: 100%;
-    margin-top: 30px;
+.div6 .img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.speakers{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 120px;
+    border-bottom: 2px solid rgb(253,185,21);
+    color: rgba(34, 64, 147, 1);
+}
+
+.speakers h1{
+    font-size: 80px;
+    font-weight: bolder;
 }
