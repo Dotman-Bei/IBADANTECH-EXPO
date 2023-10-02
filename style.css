@@ -246,21 +246,73 @@ main{
 }
 .marktickets button{
     background-color: rgb(255,205,85);
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 50px;
 }
 
 .ELON-MUSK{
     height: 85vh;
     width: 450px;
-    border: 2px;
     background-color: rgb(255,205,85);
+    color: rgba(34, 64, 147, 1);
     border-radius: 20px;
     margin-top: -35px;
+    padding-top:20px;
+    padding-right:30px;
+    padding-left: 20px;
 } 
+.Elonname{
+    font-size: 13px;
+}
+.Elonh1{
+    font-size: 30px;
+}
+.Elonparagraph{
+    font-size: 11px;
+    padding-right: 40px;
+}
+.Elontickets{
+    gap: 200px;
+    margin-top: 80px;
+}
+.Elontickets button{
+    background-color:  rgba(34, 64, 147, 1);
+    color: rgba(34, 64, 147, 1);
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
 
 .JEFF-BEZOS{
     height: 80vh;
     width: 450px;
-    border: 2px;
     background-color: white;
     border-radius: 20px;
+    padding-top:20px;
+    padding-right:30px;
+    padding-left: 20px;
 } 
+.jeffname{
+    font-size: 13px;
+}
+.jeffh1{
+    font-size: 25px;
+}
+.jeffparagraph{
+    font-size: 13px;
+    padding-right: 40px;
+}
+.jefftickets{
+    gap: 200px;
+    margin-top: 80px;
+}
+.jefftickets button{
+    background-color: rgb(255,205,85);
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
