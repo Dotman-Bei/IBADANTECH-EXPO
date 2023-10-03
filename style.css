@@ -1,6 +1,7 @@
 body{
     color: rgba(34, 64, 147, 1);
-    background-color: rgb(245,245,245) !important
+    background-color: rgb(245,245,245) !important;
+    overflow-x: hidden;
 }
 
 nav{
@@ -322,4 +323,23 @@ main{
 }
 .sponsors-h1{
     color: rgba(34, 64, 147, 1);
+    padding-left: 50px;
+}
+.sponsors-branch{
+    gap: 100px;
+    margin-top: 40px;
+}
+.sponsors-branch img{
+    width: 200px;
+    height: 90px;
+    animation: sponsors 9s 0s linear forwards infinite;
+}
+
+@keyframes sponsors{
+    from{
+        transform:translate(1450px)
+    }
+    To{
+        transform:translate(-1050px)
+    }
 }
