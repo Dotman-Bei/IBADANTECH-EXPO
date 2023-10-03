@@ -316,3 +316,10 @@ main{
     width: 200px;
     height: 50px;
 }
+
+.sponsors{
+    margin-top: 150px;
+}
+.sponsors-h1{
+    color: rgba(34, 64, 147, 1);
+}
